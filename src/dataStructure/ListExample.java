@@ -9,10 +9,10 @@ public class ListExample {
 	public static void main(String[] args) {
 		
 		//creating an object of ArrayList class
-//		ArrayList<String> empNameAL = new ArrayList<String>();
-//		empNameAL.add("Vivek");
-//		empNameAL.add("Parth");
-//		empNameAL.add("Sarita");
+		ArrayList<String> empNameAL = new ArrayList<String>();
+		empNameAL.add("Vivek");
+		empNameAL.add("Parth");
+		empNameAL.add("Sarita");
 //
 //		System.out.println("The original list is as follows:");
 //		//traversing through the list

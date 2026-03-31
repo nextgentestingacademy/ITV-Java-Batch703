@@ -1,17 +1,23 @@
 package algorithms;
 
+import java_oops.MethodsExample;
+
 public class CountChar {
 
 	public static void main(String[] args) {
-		String val = "www";
-		String search = "w";
+		MethodsExample m = new MethodsExample();
+		m.setCompanyName("Birla");
+		System.out.println(m.getCompanyName());
 		
-		int origLen = val.length();
-		
-		val = val.replace(search, "");
-		int newLen = val.length();
-
-		int numbOcc = origLen - newLen;
-		System.out.println("Number of occurrences of " + search + " is " +numbOcc);
+//		String val = "www";
+//		String search = "w";
+//		
+//		int origLen = val.length();
+//		
+//		val = val.replace(search, "");
+//		int newLen = val.length();
+//
+//		int numbOcc = origLen - newLen;
+//		System.out.println("Number of occurrences of " + search + " is " +numbOcc);
 	}
 }

@@ -5,8 +5,8 @@ import java.util.*;
 public class MapExample {
 
 	public static void main(String[] args) {
-		//Map is an interface - stores elements in key-value pair format
-		//Classes that inherits Map interface - HashMap, TreeMap, LinkedHashMap
+		// Map is an interface - stores elements in key-value pair format
+		// Classes that inherits Map interface - HashMap, TreeMap, LinkedHashMap
 		// HashMap - store elements in random order
 		// TreeMap - store the keys in sorted order
 		// LinkedHashMap - store the keys in the order of insertion
@@ -16,7 +16,7 @@ public class MapExample {
 //		empDtlsHM.put(2, "Vivek");
 //		empDtlsHM.put(3, "Sarita");
 //		empDtlsHM.put(1, "Vanita"); //duplicate key
-//		
+////		
 //		System.out.println("========== Printing the list of all keys ==========");
 //		for(int i: empDtlsHM.keySet()) {
 //			System.out.println(i);
@@ -26,7 +26,7 @@ public class MapExample {
 //		for(String s: empDtlsHM.values()) {
 //			System.out.println(s);
 //		}
-//
+////
 //		System.out.println("========== Printing the list of all keys and their values ==========");
 //		for(int i: empDtlsHM.keySet()) {
 //			System.out.println("For key: " + i + " the value is " + empDtlsHM.get(i));
@@ -42,12 +42,12 @@ public class MapExample {
 //		for(int i: empDtlsHM.keySet()) {
 //			System.out.println("For key: " + i + " the value is " + empDtlsHM.get(i));
 //		}	
-//		
+		
 //		TreeMap<Integer,String> empDtlsTM = new TreeMap<Integer,String>();
 //		empDtlsTM.put(6, "Ashish");
 //		empDtlsTM.put(5, "Amit");
 //		empDtlsTM.put(1, "Amit");
-//		
+////		
 //		System.out.println("======== Printing the list of all keys ========");
 //		for(int a: empDtlsTM.keySet()) {
 //			System.out.println(a);
